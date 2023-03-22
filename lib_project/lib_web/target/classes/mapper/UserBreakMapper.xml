@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nd.dao.UserBreakDao">
+    <!--查询语句书写-->
+    <select id="findUserBreak" resultType="UserBreak">
+        select n.uid,u.uname,count(*)as breakTimes
+        from noncompliance n join user u on n.uid=u.uID
+        where n.uid in(select ubt.uid
+        from userborrowTimes ubt join user u on ubt.uid=u.uID order by ubt.sumborrow desc)
+        group by n.uid
+        limit 0,20
+    </select>
+</mapper>

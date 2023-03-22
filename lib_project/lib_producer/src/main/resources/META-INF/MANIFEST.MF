@@ -1,0 +1,60 @@
+Manifest-Version: 1.0
+Class-Path: hadoop-mapreduce-client-core-2.10.0.jar hadoop-hdfs-client
+ -2.10.0.jar servlet-api-2.5.jar joni-2.1.11.jar paranamer-2.3.jar jac
+ kson-databind-2.7.8.jar javax.el-3.0.1-b12.jar jackson-jaxrs-1.9.13.j
+ ar jersey-client-2.25.1.jar javassist-3.20.0-GA.jar commons-collectio
+ ns-3.2.2.jar slf4j-api-1.7.30.jar netty-buffer-4.1.45.Final.jar kafka
+ -clients-3.0.1.jar javax.servlet.jsp-2.3.2.jar protobuf-java-2.5.0.ja
+ r disruptor-3.4.2.jar curator-client-2.7.1.jar stax2-api-3.1.4.jar hb
+ ase-shaded-miscellaneous-3.3.0.jar commons-logging-1.1.3.jar woodstox
+ -core-5.0.3.jar hbase-shaded-gson-3.3.0.jar validation-api-1.1.0.Fina
+ l.jar netty-3.10.6.Final.jar zookeeper-jute-3.5.7.jar jersey-core-1.9
+ .jar zstd-jni-1.5.0-2.jar jetty-webapp-9.3.28.v20191105.jar hadoop-ya
+ rn-client-2.10.0.jar snappy-java-1.1.8.1.jar commons-daemon-1.0.13.ja
+ r hadoop-hdfs-2.10.0.jar apacheds-i18n-2.0.0-M15.jar aopalliance-repa
+ ckaged-2.5.0-b32.jar netty-common-4.1.45.Final.jar hadoop-yarn-common
+ -2.10.0.jar jsch-0.1.54.jar api-asn1-api-1.0.0-M20.jar curator-framew
+ ork-2.7.1.jar hk2-api-2.5.0-b32.jar jersey-media-jaxb-2.25.1.jar comm
+ ons-compress-1.19.jar javax.activation-api-1.2.0.jar commons-lang-2.6
+ .jar hbase-server-2.3.7.jar asm-3.1.jar jaxb-impl-2.2.3-1.jar tools.j
+ ar avro-1.7.7.jar jetty-sslengine-6.1.26.jar leveldbjni-all-1.8.jar g
+ uava-11.0.2.jar jetty-io-9.3.28.v20191105.jar audience-annotations-0.
+ 5.0.jar jackson-core-asl-1.9.13.jar httpclient-4.5.2.jar nimbus-jose-
+ jwt-4.41.1.jar curator-recipes-2.7.1.jar hbase-hadoop2-compat-2.3.7.j
+ ar jackson-xc-1.9.13.jar jersey-guava-2.25.1.jar jersey-container-ser
+ vlet-core-2.25.1.jar metrics-core-3.2.6.jar jetty-util-9.3.28.v201911
+ 05.jar jersey-server-1.9.jar hbase-protocol-2.3.7.jar zookeeper-3.5.7
+ .jar lz4-java-1.7.1.jar jcodings-1.0.18.jar hbase-procedure-2.3.7.jar
+  error_prone_annotations-2.3.4.jar api-util-1.0.0-M20.jar javax.injec
+ t-1.jar httpcore-4.4.4.jar jettison-1.1.jar guice-servlet-3.0.jar jer
+ sey-server-2.25.1.jar xmlenc-0.52.jar netty-transport-native-unix-com
+ mon-4.1.45.Final.jar hbase-replication-2.3.7.jar guice-3.0.jar hadoop
+ -common-2.10.0.jar hk2-locator-2.5.0-b32.jar hadoop-distcp-2.10.0.jar
+  jetty-6.1.26.jar jackson-mapper-asl-1.9.13.jar aopalliance-1.0.jar h
+ base-metrics-api-2.3.7.jar commons-crypto-1.0.0.jar commons-cli-1.2.j
+ ar jersey-json-1.9.jar javax.servlet.jsp-api-2.3.1.jar hadoop-yarn-ap
+ i-2.10.0.jar hbase-protocol-shaded-2.3.7.jar commons-lang3-3.9.jar ch
+ ecker-qual-3.1.0.jar jsr305-3.0.0.jar jersey-client-1.9.jar jetty-ser
+ vlet-9.3.28.v20191105.jar jetty-http-9.3.28.v20191105.jar jetty-xml-9
+ .3.28.v20191105.jar osgi-resource-locator-1.0.1.jar hbase-zookeeper-2
+ .3.7.jar jersey-guice-1.9.jar javax.inject-2.5.0-b32.jar commons-bean
+ utils-1.9.4.jar okio-1.6.0.jar netty-transport-4.1.45.Final.jar javax
+ .servlet-api-3.1.0.jar hbase-shaded-protobuf-3.3.0.jar commons-io-2.1
+ 1.0.jar jetty-server-9.3.28.v20191105.jar hbase-metrics-2.3.7.jar net
+ ty-resolver-4.1.45.Final.jar caffeine-2.8.1.jar hbase-hadoop-compat-2
+ .3.7.jar commons-configuration-1.6.jar netty-codec-4.1.45.Final.jar c
+ ommons-codec-1.13.jar commons-net-3.1.jar netty-handler-4.1.45.Final.
+ jar netty-transport-native-epoll-4.1.45.Final.jar jamon-runtime-2.4.1
+ .jar commons-math3-3.6.1.jar netty-all-4.0.23.Final.jar jackson-core-
+ 2.7.8.jar slf4j-log4j12-1.7.25.jar hadoop-auth-2.10.0.jar hbase-shade
+ d-netty-3.3.0.jar hbase-asyncfs-2.3.7.jar htrace-core4-4.2.0-incubati
+ ng.jar hbase-logging-2.3.7.jar javax.ws.rs-api-2.0.1.jar jersey-commo
+ n-2.25.1.jar hadoop-annotations-2.10.0.jar jetty-util-ajax-9.3.28.v20
+ 191105.jar apacheds-kerberos-codec-2.0.0-M15.jar hbase-common-2.3.7.j
+ ar jackson-annotations-2.7.0.jar log4j-1.2.17.jar jetty-security-9.3.
+ 28.v20191105.jar jcip-annotations-1.0-1.jar hbase-client-2.3.7.jar je
+ tty-util-6.1.26.jar gson-2.2.4.jar commons-digester-1.8.jar hk2-utils
+ -2.5.0-b32.jar hbase-http-2.3.7.jar okhttp-2.7.5.jar javax.annotation
+ -api-1.2.jar
+Main-Class: com.nd.library.producer.Bootstrap
+

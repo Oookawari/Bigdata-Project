@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nd.dao.UserSumDao">
+    <!--查询语句书写-->
+    <select id="findUserSum" resultType="UserSum">
+        select ubt.uID,u.uname,ubt.sumborrow
+        from userborrowTimes ubt join user u on ubt.uid=u.uID order by ubt.sumborrow desc
+        limit 0,10;
+    </select>
+</mapper>

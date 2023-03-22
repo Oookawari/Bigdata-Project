@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nd.dao.BookCategoryDao">
+    <!--查询语句书写-->
+    <select id="sortBook" resultType="BookCategory">
+        select bcategory,count(*)as num
+        from  book
+        group by bcategory
+        order by bcategory
+    </select>
+    <select id="countBook" resultType="BookSortCount">
+        select bcategory,sum(bt.sumborrow)as sumborrow
+        from  book b join borrowTimes bt on bt.bid=b.bID
+        group by bcategory
+        order by bcategory
+    </select>
+</mapper>

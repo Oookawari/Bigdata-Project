@@ -1,0 +1,16 @@
+com\nd\library\analysis\io\MySQLTextOutputFormat3$MySQLRecordWriter.class
+com\nd\library\analysis\tool\AnalysisTextTool2.class
+com\nd\library\analysis\io\MySQLTextOutputFormat$MySQLRecordWriter.class
+com\nd\library\analysis\mapper\AnalysisTextMapper3.class
+com\nd\library\analysis\tool\AnalysisTextTool.class
+com\nd\library\analysis\io\MySQLTextOutputFormat3.class
+com\nd\library\analysis\AnalysisData.class
+com\nd\library\analysis\mapper\AnalysisTextMapper2.class
+com\nd\library\analysis\io\MySQLTextOutputFormat2$MySQLRecordWriter.class
+com\nd\library\analysis\reducer\AnalysisTextReducer.class
+com\nd\library\analysis\reducer\AnalysisTextReducer3.class
+com\nd\library\analysis\io\MySQLTextOutputFormat.class
+com\nd\library\analysis\io\MySQLTextOutputFormat2.class
+com\nd\library\analysis\mapper\AnalysisTextMapper.class
+com\nd\library\analysis\reducer\AnalysisTextReducer2.class
+com\nd\library\analysis\tool\AnalysisTextTool3.class

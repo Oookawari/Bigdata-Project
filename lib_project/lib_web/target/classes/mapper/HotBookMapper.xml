@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nd.dao.HotBookDao">
+<select id="findHotBook1" resultType="BorrowLog">
+    select b.bname,bt.month,bt.sumborrow
+    from borrowTimes bt join book b on bt.bid=b.bID
+    where bt.month='2022-1'order by bt.sumborrow desc
+    limit 0,5;
+</select>
+<select id="findHotBook2" resultType="BorrowLog">
+select b.bname,bt.month,bt.sumborrow
+from borrowTimes bt join book b on bt.bid=b.bID
+where bt.month='2022-2'order by bt.sumborrow desc
+limit 0,5;
+</select>
+<select id="findHotBook3" resultType="BorrowLog">
+select b.bname,bt.month,bt.sumborrow
+from borrowTimes bt join book b on bt.bid=b.bID
+where bt.month='2022-3'order by bt.sumborrow desc
+limit 0,5;
+</select>
+<select id="findHotBook4" resultType="BorrowLog">
+select b.bname,bt.month,bt.sumborrow
+from borrowTimes bt join book b on bt.bid=b.bID
+where bt.month='2022-4'order by bt.sumborrow desc
+limit 0,5;
+</select>
+<select id="findHotBook5" resultType="BorrowLog">
+select b.bname,bt.month,bt.sumborrow
+from borrowTimes bt join book b on bt.bid=b.bID
+where bt.month='2022-5'order by bt.sumborrow desc
+limit 0,5;
+</select>
+<select id="findHotBook6" resultType="BorrowLog">
+select b.bname,bt.month,bt.sumborrow
+from borrowTimes bt join book b on bt.bid=b.bID
+where bt.month='2022-6'order by bt.sumborrow desc
+limit 0,5;
+</select>
+</mapper>

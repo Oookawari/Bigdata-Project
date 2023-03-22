@@ -1,0 +1,7 @@
+com\nd\library\producer\bean\LocalFileProducer.class
+com\nd\library\producer\bean\Book.class
+com\nd\library\producer\io\LocalFileDataIn.class
+com\nd\library\producer\bean\User.class
+com\nd\library\producer\bean\Borrow.class
+com\nd\library\producer\Bootstrap.class
+com\nd\library\producer\io\LocalFileDataOut.class

@@ -1,0 +1,3 @@
+com\nd\library\consumer\Dao\HBaseDao.class
+com\nd\library\consumer\bean\borrowlogConsumer.class
+com\nd\library\consumer\BootStrap.class

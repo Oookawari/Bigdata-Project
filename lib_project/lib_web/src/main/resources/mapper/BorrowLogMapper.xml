@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nd.dao.BorrowLogDao">
+<!--查询语句书写-->
+<select id="findBorrowLog" resultType="BorrowLog">
+        select b.bname, bt.month, bt.sumborrow
+        from book b join borrowTimes bt
+        on b.bID = bt.bid
+        where b.bname = #{bookname}
+    </select>
+</mapper>

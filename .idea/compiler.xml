@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lib_producer" />
+        <module name="lib_consumer" />
+        <module name="lib_writesql" />
+        <module name="lib_analysis" />
+        <module name="lib_web" />
+        <module name="lib_common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="lib_analysis" target="1.8" />
+      <module name="lib_common" target="7" />
+      <module name="lib_consumer" target="8" />
+      <module name="lib_producer" target="8" />
+      <module name="lib_web" target="1.8" />
+      <module name="lib_writesql" target="1.8" />
+      <module name="library_project" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
